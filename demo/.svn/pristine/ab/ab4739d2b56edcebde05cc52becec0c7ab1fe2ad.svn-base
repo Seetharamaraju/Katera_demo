@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-navbar color="theme">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>User Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content >
+    <div class="login-box">
+<ion-card>
+  <ion-card-header>
+    <ion-item-divider color="theme">
+  Admin User Details
+    </ion-item-divider>
+  </ion-card-header>
+
+  <!--<ion-list>
+     <ion-item *ngFor="let detail of details"  item-left>
+    {{ detail }}
+  </ion-item> -->
+  <ion-row>
+    <ion-col>
+      
+    <ion-item><ion-icon name="person" item-left></ion-icon>FirstName </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item> {{firstname}}</ion-item>
+    </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col>
+    <ion-item> <ion-icon name="person" item-left></ion-icon>LastName </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{lastname}} </ion-item>
+    </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col>
+    <ion-item> <ion-icon name="mail" item-left></ion-icon>Email </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{email}} </ion-item>
+    </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col>
+    <ion-item> <ion-icon name="card" item-left></ion-icon>SSN </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{ssn}} </ion-item>
+    </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col>
+    <ion-item><ion-icon name="map" item-left></ion-icon>State </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{state}} </ion-item>
+    </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col>
+    <ion-item><ion-icon name="map" item-left></ion-icon>City </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{city}} </ion-item>
+    </ion-col>
+   </ion-row>
+    <ion-row>
+    <ion-col>
+      
+    <ion-item> <ion-icon name="people" item-left></ion-icon>UserType </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{usertype}} </ion-item>
+    </ion-col>
+   </ion-row>
+    <ion-row>
+    <ion-col>
+    <ion-item> <ion-icon name="barcode" item-left></ion-icon>ControllerId </ion-item>
+    </ion-col>
+     <ion-col>
+    <ion-item>{{controllerId}} </ion-item>
+    </ion-col>
+   </ion-row>
+   
+ 
+</ion-card>
+    </div>
+</ion-content>

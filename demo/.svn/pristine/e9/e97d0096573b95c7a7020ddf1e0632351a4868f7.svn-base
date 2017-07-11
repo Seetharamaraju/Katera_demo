@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="theme">
+   
+    <ion-title>User Management</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+<div class="user-box">
+  <ion-card class="card1">
+    <img src="assets/images/userprofile.jpg" (click)="userprofile()">
+    <div class="card-title" (click)="userprofile()">User Profile</div>
+    <div class="card-subtitle" (click)="userprofile()">UserManagement-User Profile </div>
+  </ion-card>
+    
+
+  <ion-card class="card2">
+    <img src="assets/images/userlist.jpg" (click)="userlist()">
+    <div class="card-title" (click)="userlist()">User List</div>
+    <div class="card-subtitle" (click)="userlist()">UserManagement-User List</div>
+  </ion-card>
+
+  <ion-card class="card3">
+    <img src="assets/images/adduser.jpg" (click)="adduser()">
+    <div class="card-title" (click)="adduser()">Add User</div>
+    <div class="card-subtitle" (click)="adduser()">UserManagement-Add User</div>
+  </ion-card>
+
+</div>
+
+</ion-content>

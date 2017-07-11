@@ -1,0 +1,74 @@
+
+<ion-header>
+
+  <ion-navbar color="theme">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Devices</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background-color: grey;">
+<div class="login-box">
+<ion-list>
+  <ion-card *ngFor="let device of devicesArray; let i = index" [attr.data-index]="i">
+    
+
+       <ion-card-content class="card_size">
+
+        <ion-row  no-padding>
+         <ion-col *ngIf="device.name=='Light' && device.currentStatus=='ON'">
+         <img class="bulb_image" src="http://bestanimations.com/HomeOffice/Lights/Bulbs/animated-light-bulb-gif-29.gif"/>
+         </ion-col>
+        <ion-col *ngIf="device.name=='Light' && device.currentStatus=='OFF'">
+         <img class="bulb_image" src="assets/images/bulb.png"/>
+         </ion-col>
+          <ion-col *ngIf="device.name=='Heater'">
+         <img class="bulb_image" src="assets/images/temperature.png"/>
+         </ion-col>
+
+        <ion-col *ngIf="device.name=='AirConditioner'">
+         <img class="bulb_image" src="assets/images/air conditioning outdoor.png"/>
+         </ion-col>
+<ion-col *ngIf="device.name=='Fan' && device.currentStatus=='ON'">
+         <img class="bulb_image" src="http://www.guijaboard.com/image/fan.gif"/>
+         </ion-col>
+         <ion-col *ngIf="device.name=='Fan' && device.currentStatus=='OFF'">
+         <img class="bulb_image" src="assets/images/fan.png"/>
+         </ion-col>
+         <ion-col>
+             <div class="line_class">
+              <h3><b>Room: {{device.roomID}}</b></h3><br/>
+              <h3><b>Device: {{device.name}}</b></h3>
+             </div>
+         </ion-col>
+         <ion-col>
+         <ion-toggle color="positive_color"  [(ngModel)]="device.currentStatus" (ionChange)="changeStatus(device);" checked="false" >
+         </ion-toggle>
+         </ion-col>
+         <ion-col>
+        <button clear class="bbb" ion-button (click)="makeFavourite(device)">
+          <ion-icon *ngIf="device.favourites == true" name="heart" color="heart"></ion-icon>
+          <ion-icon *ngIf="device.favourites == false" [name]="myIcon" color="heart"></ion-icon> </button>
+          </ion-col>
+           
+        
+          
+         </ion-row>
+         <ion-row class="rowclass">
+           <ion-col><button ion-button class="button2" (click)="alarmFunc()"><ion-icon name="alarm"><b> ALARM</b></ion-icon></button></ion-col>
+           <ion-col><button ion-button class="button2" (click)="scheduleFunc()"><ion-icon name="clock"><b> SCHEDULE</b></ion-icon></button></ion-col>
+           <ion-col><button ion-button class="button2" (click)="statisticsFunc()"><ion-icon name="podium"><b> STATISTICS</b></ion-icon></button></ion-col>
+         </ion-row>
+  
+  </ion-card-content>
+
+  </ion-card>
+ 
+  </ion-list>
+</div>
+
+</ion-content>

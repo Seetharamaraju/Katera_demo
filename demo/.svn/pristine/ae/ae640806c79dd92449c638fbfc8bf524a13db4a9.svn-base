@@ -1,0 +1,104 @@
+page-register {
+
+@media only screen and (min-width : 1301px) {
+.navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+        margin-left:32%;
+        width:33%;
+      background:rgba(169, 169, 169, 0.53);
+      padding: 20px 20px 0px 20px;
+      margin-top: 30px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+}
+@media only screen and (min-width : 330px) {
+
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:25%;
+        //width:50%;
+      background:#399F8B;
+      padding: 20px 20px 0px 20px;
+      margin-top: 30px;
+     
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+}
+
+}

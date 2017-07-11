@@ -1,0 +1,109 @@
+page-dashboard {
+
+#bgcolor{
+  
+  background: #FEFCFC;
+}
+
+#t1 {
+    -moz-tab-size: 2; 
+    -o-tab-size: 2; 
+    tab-size: 2;
+}
+
+
+.col_color{
+  background: rgba(245, 0, 0, 0.62);
+}
+
+.col_color1{
+  background: rgba(11, 247, 81, 0.73);
+}
+
+.line_class{
+    line-height: 2.5;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.aaa{
+  padding-left: 75px;
+  background: #63b57b;
+}
+
+.button_card{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #222;
+}
+
+.bbb{
+    @media screen and (max-width: 350px) {
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-top: 0px;
+     padding-bottom: 40px;
+    }
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 73px;
+  background: rgba(153, 153, 153, 0.52);
+}
+
+.sensor_class{
+  background: rgba(158, 158, 158, 0.2);
+}
+
+.sensor_class1{
+  padding-left: 0px;
+  padding-right: -1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.card2_class{
+background: rgba(255, 255, 255, 0.5);  
+}
+
+.button1{
+        padding: 0 2.1em;
+        background-color: #3db7eb;
+        width: 100%
+
+}
+
+.button2{
+    padding: 0 2.1em;
+    background-color: #3db7eb;
+    width: 100%
+}
+
+.button3{
+    padding: 0 2.1em;
+    background-color: #3db7eb;
+    width: 100%
+}
+
+.image{
+     @media screen and (max-width: 292px) {
+          width: 117%;
+        }
+    width: 90%;
+}
+
+
+
+.imagefunc{
+  width: 41%;
+}
+
+.imagefunc1{
+  width: 100%;
+}
+
+}

@@ -1,0 +1,518 @@
+page-adduser {
+
+/*@media only screen and (min-width : 1301px) {
+.navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+        margin-left:32%;
+        width:33%;
+      background:rgba(169, 169, 169, 0.53);
+      padding: 20px 20px 0px 20px;
+      margin-top: 30px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+}
+@media only screen and (min-width : 330px) {
+
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:25%;
+        //width:50%;
+      background:#399F8B;
+      padding: 20px 20px 0px 20px;
+      margin-top: 30px;
+     
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 320px) {
+     .navbar{
+   background-color:#51CFB1;
+    }
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+        //margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 36px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       }
+   @media screen and (min-width: 321px) and (max-width: 360px) {
+        .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 70px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       }
+   @media screen and (min-width: 361px) and (max-width: 375px) {
+       .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 70px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       }
+   @media screen and (min-width: 376px) and (max-width: 412px) {
+       .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 70px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       }        
+   @media screen and (min-width: 413px) and (max-width: 414px) {
+       .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 70px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       } 
+   @media screen and (min-width: 415px) and (max-width: 768px) {
+        .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+        //margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 90px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       } 
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+       // margin-left:32%;
+        width:100%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 90px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       }   
+   @media screen and (min-width: 1025px) and (max-width: 1850px) {
+        .navbar{
+   background-color:#51CFB1;
+}
+
+  .login-navbar{
+      background-color:#51CFB1;
+  }
+  .login-content {
+    background:rgba(169, 169, 169, 0.53);
+
+    .login-box {
+        margin-left:28%;
+        width:39%;
+      background:#49a794;
+      padding: 20px 20px 0px 20px;
+      margin-top: 70px;
+    }
+
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+
+     ion-item {
+         border-radius: 15px !important;
+         padding-left: 15px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+     }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+  }
+       } 
+
+
+
+}

@@ -1,0 +1,38 @@
+<ion-content class="login-content" padding>
+
+  <div class="login-box">
+    <ion-row class="logo-row">
+    <ion-col></ion-col>
+    <ion-col width-67>
+      <img src="assets/images/katteralogo.jpg"/>
+    </ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+    <form  #registerForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+            <ion-label primary>Register Your Controller</ion-label>
+            <ion-item>
+              <ion-input type="text" placeholder="Please Enter Your Controller ID" name="controllerID" [(ngModel)]="controllerCredentials.controllerID" required></ion-input>
+            </ion-item>
+
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid" (click)="verify()">Register Your Controller</button>
+        </ion-col>
+      </ion-row>
+
+       <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="submit-btn" full   (click)="loginback()">Already Registered?</button>
+        </ion-col>
+      </ion-row>
+
+    </form>
+  </div>
+</ion-content>

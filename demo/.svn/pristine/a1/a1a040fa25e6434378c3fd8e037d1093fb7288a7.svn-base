@@ -1,0 +1,147 @@
+<ion-header>
+  <ion-navbar secondary>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>KATTERA</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="bgcolor">
+<ion-row>
+
+    <ion-col>
+    <button ion-button class="button3"><ion-icon md="md-contact"><b> SUPPORT</b></ion-icon></button>
+    </ion-col>
+
+    <ion-col>
+    <button ion-button class="button2"><ion-icon md="md-call"><b> PANIC</b></ion-icon></button>
+    </ion-col>
+
+</ion-row>
+
+
+<ion-card class="button_card">
+  <ion-row>
+    <ion-col>
+      <div class="line_class"><b>ARMED CONTROL</b></div>
+    </ion-col>
+    <ion-col>
+    <div class="line_class">
+      <ion-toggle color="danger" [(ngModel)]="this.armedvalue" (ionChange)="changeStatus(this.armedvalue);" checked="false"></ion-toggle>
+   </div>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+
+<ion-row>
+<ion-col *ngFor="let sensor of sensorslists">
+    <ion-card class="sensor_class">
+       <ion-card-content class="sensor_class1">
+       <ion-row>
+        <ion-col class="col_color1"><div class="line_class"><p><b>NAME: </b>{{sensor.name}}</p>
+        </div></ion-col>
+<!--         <ion-col class="col_color1">
+        <div class="line_class">
+        <img class="imagefunc1" src="http://www.reveautomation.com/img/embedehard.png"/>
+        </div>
+        </ion-col>  -->
+      
+        <ion-col>
+         <div class="line_class">
+         <p><b>VALUE: </b>{{sensor.output}}</p>
+        </div>
+        </ion-col>
+        </ion-row>
+       </ion-card-content>
+    </ion-card>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+    <ion-col>
+     <ion-card class="bbb">
+      <ion-card-header>
+       <b>ROOMS</b>
+      </ion-card-header>
+      <ion-list>
+        <button ion-item *ngFor="let room of roomslists" (click) ="room_details(room.roomID);">
+           <ion-row>
+            <ion-col><b>Name: </b>{{room.roomID}}</ion-col>
+            <ion-col><b>Devices: </b>{{room.devicesCount}}</ion-col>
+           </ion-row>
+        </button>
+      </ion-list>
+     </ion-card>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+    <ion-col>
+    <ion-card class="bbb" (click)="devicesFunc()">
+    <ion-card-content>
+    <b>DEVICES</b>
+    </ion-card-content>
+    </ion-card>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+    <ion-col>
+    <ion-card class="card2_class" (click)="videoFunc()">
+    <ion-card-content>
+    <img class="imagefunc" src="http://www.pngmart.com/files/1/Video-Icon-PNG-Clipart.png"/>
+    <b>LIVE VIDEO</b>
+    </ion-card-content>
+    </ion-card>
+    </ion-col>
+
+    <ion-col>
+    <ion-card class="card2_class" (click)="temperatureFunc()">
+    <ion-card-content>
+    <img class="imagefunc" src="http://www.freeiconspng.com/uploads/temperature-icon-png-18.png"/>
+    <b>TEMP INFO</b>
+    </ion-card-content>
+    </ion-card>
+    </ion-col>
+</ion-row>
+
+<ion-row>
+    <ion-col>
+    <ion-card class="card2_class" (click)="favouritesFunc()">
+    <ion-card-content>
+    <img class="imagefunc" src="http://www.iconsfind.com/wp-content/uploads/2015/11/20151112_5643eb9f14249.png"/>
+    <b>FAVOURITES</b>
+    </ion-card-content>
+    </ion-card>
+    </ion-col>
+
+    <ion-col>
+    <ion-card class="card2_class" (click)="statusFunc()">
+    <ion-card-content>
+    <img class="imagefunc" src="http://www.doupinetwerk.nl/wp-content/uploads/2015/01/1420351662_statistics.png"/>
+    <b>STATUS</b>
+    </ion-card-content>
+    </ion-card>
+    </ion-col>
+</ion-row>
+
+</ion-content>
+
+
+<!-- <ion-row>
+   <ion-col>
+    <ion-card class="sensor_class">
+       
+       <ion-card-content class="sensor_class1">
+       <ion-row>
+        <ion-col class="col_color1"></ion-col>
+        <ion-col><img class="imagefunc1" src="http://www.reveautomation.com/img/embedehard.png"/></ion-col>
+        <ion-col><b>SENSOR_1</b></ion-col>
+        </ion-row>
+       </ion-card-content>
+    </ion-card>
+   </ion-col>
+</ion-row>
+ -->

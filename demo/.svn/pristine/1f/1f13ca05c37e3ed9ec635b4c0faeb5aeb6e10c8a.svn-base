@@ -1,0 +1,111 @@
+<ion-header>
+  <ion-navbar color="theme">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Promotions</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content >
+<div class="promotion-box">
+    <ion-slides pager="true">
+
+  <ion-slide>
+    <img src="assets/images/promotion5.png" (click)="katerra1()">
+  </ion-slide>
+
+  
+  <ion-slide>
+    <img src="assets/images/promotion2.png" (click)="katerra2()">
+  </ion-slide>
+
+
+  <ion-slide>
+    <img src="assets/images/promotion6.jpg" (click)="katerra3()">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/promotion7.jpg" (click)="katerra4()">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/promotion8.jpg" (click)="katerra4()">
+  </ion-slide>
+
+  <ion-slide>
+    <ion-row>
+      <ion-col>
+        <img src="assets/images/promotion9.jpg" (click)="katerra4()">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="theme" (click)="goToHome()">Dashboard</button>
+      </ion-col>
+    </ion-row>
+  </ion-slide>
+
+</ion-slides>
+<ion-row>
+  <ion-col>
+<ion-card>
+  <ion-list>
+    <ion-list-header>
+      HA-Basic
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Rooms
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Devices
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      Sensors
+    </a>
+  </ion-list>
+</ion-card>
+</ion-col>
+ <ion-col>
+<ion-card>
+  <ion-list>
+    <ion-list-header>
+      HA-Premium
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Alarms
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Dashboard
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      User Management
+    </a>
+  </ion-list>
+</ion-card>
+</ion-col>
+ <ion-col>
+<ion-card>
+  <ion-list>
+    <ion-list-header>
+      HA-Large
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Notifications
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Camera
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      Promotions
+    </a>
+  </ion-list>
+</ion-card>
+</ion-col>
+</ion-row>
+
+
+</div>
+
+
+
+</ion-content>
+
+

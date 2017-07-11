@@ -1,0 +1,81 @@
+page-userprofile {
+   
+
+         @media screen and (max-width: 320px) {
+      .login-box {
+            
+       //margin-left:28%;
+        width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 15px;
+                }
+       }
+   @media screen and (min-width: 321px) and (max-width: 360px) {
+         .login-box {
+                  width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 15px;
+                }
+       }
+   @media screen and (min-width: 361px) and (max-width: 375px) {
+       .login-box {
+                  width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 20px;
+                }
+       }
+   @media screen and (min-width: 376px) and (max-width: 412px) {
+        .login-box {
+                 width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 40px;
+                }
+       }        
+   @media screen and (min-width: 413px) and (max-width: 414px) {
+        .login-box {
+                  width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 35px;
+                }
+       } 
+   @media screen and (min-width: 415px) and (max-width: 768px) {
+        .login-box {
+                 width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 75px;
+                }
+       } 
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+         .login-box {
+                 width:100%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 75px;
+                }
+       }   
+   @media screen and (min-width: 1025px) and (max-width: 1320px) {
+         .login-box {
+                /* width: 590px;
+		   //background: #399F8B;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;*/
+
+
+margin-left:30%;
+      width:40%;
+      background:#49a794;
+      padding: 4px 3px 6px 0px;
+      margin-top: 15px;
+                }
+       } 
+
+
+}

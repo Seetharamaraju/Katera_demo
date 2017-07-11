@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-navbar [hideBackButton]="false" color="theme">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Add User</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content  class="login-content" padding>
+  <div class="login-box">
+
+  
+  <form [formGroup]="form" #registerForm="ngForm">
+  <ion-row>
+    <ion-col>
+  <ion-list  >
+ 		<ion-item>
+      		<ion-input [(ngModel)]="firstName" placeholder="First Name" formControlName="firstName" type="text" required></ion-input>
+          <p>{{formErrors.userName}}</p>
+    </ion-item>
+    <div *ngIf="!form.controls.firstName.valid  && (form.controls.firstName.dirty || submitAttempt)">
+                <p>Please enter a valid name.</p>
+    </div>
+    <ion-item>
+      		<ion-input [(ngModel)]="lastName" placeholder="Last Name" formControlName="lastName" type="text" maxlength="16" required></ion-input>
+          <p>{{formErrors.userName}}</p>
+    </ion-item>
+    <div *ngIf="!form.controls.lastName.valid  && (form.controls.lastName.dirty || submitAttempt)">
+                <p>Please enter a valid name.</p>
+    </div>
+    <ion-item>
+          <ion-input [(ngModel)]="userEmail" formControlName="userEmail"   type="email" placeholder="Email" required></ion-input>
+    </ion-item>
+    <div *ngIf="!form.controls.userEmail.valid  && (form.controls.userEmail.dirty || submitAttempt)">
+                <p>Please enter a valid Email Id.</p>
+    </div>
+ 	
+    <ion-item>
+          <ion-input [(ngModel)]="userSSN" placeholder="SSN No (Optional)" formControlName="userSSN" type="text"></ion-input>
+          <p>{{formErrors.userName}}</p>
+    </ion-item>
+    
+      
+   
+     <ion-list *ngIf="this.notify">
+      <ion-label class="validations" >please fill all fields.
+      </ion-label>
+    </ion-list>
+ 	</ion-list>
+   </ion-col>
+   </ion-row>
+
+   <ion-row>
+	<ion-col class="signup-col">
+	  <button ion-button class="submit-btn" [disabled]="!registerForm.form.valid"full type="submit" (click)="signLogin()">Add User</button>
+	</ion-col>
+	<ion-col class="signup-col">
+	  <button ion-button class="submit-btn" (click)="goBackToSighnup()">Cancel</button>
+	</ion-col>
+  </ion-row>
+</form>
+
+</div>
+
+</ion-content>

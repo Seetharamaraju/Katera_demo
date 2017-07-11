@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar [hideBackButton]="false" color="theme">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>User List</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="bgcolor">
+  <div *ngIf="collectings && collectings.length <= 0">
+    <ion-note class="message">{{message}}</ion-note>
+  </div>
+<div class="login-box" *ngIf="collectings && collectings.length > 0">
+  <ion-list class="item-borderless" inset>
+   
+    <ion-item *ngFor="let collecting of collectings; let i = index" [attr.data-index]="i">
+      <ion-item-divider color="light">{{collecting.firstName}} {{collecting.lastName}}  <ion-icon name="create" item-right (click)="editUser(i)"></ion-icon><ion-icon name="trash" item-right (click)="deleteUser(i)"></ion-icon></ion-item-divider>
+      <ion-grid>
+      <ion-row>
+      <ion-col>
+      <ion-item no-lines><ion-icon name="userEmail" ></ion-icon>Email ID : </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item no-lines>{{collecting.email}}</ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+    <ion-col>
+      <ion-item no-lines><ion-icon name="userSSN" ></ion-icon>User SSN No :</ion-item>
+    </ion-col>
+    <ion-col>
+    <ion-item no-lines>{{collecting.userSSN}}</ion-item>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+    </ion-item>
+  </ion-list>
+</div>
+</ion-content>

@@ -1,0 +1,136 @@
+page-userlist {
+
+#bgcolor{
+    background: #e0e0e0;
+}
+
+.aaa{
+    padding-left: 75px;
+    background: #63b57b;
+}
+.bbb{
+    @media screen and (max-width: 350px) {
+       padding-left: 0px;
+       padding-right: 10px;
+       padding-top: 0px;
+       padding-bottom: 40px;
+       background: #63b57b;
+    }
+
+    padding-left: 0px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 73px;
+    background: #63b57b;
+}
+
+@media screen and (max-width: 320px) {
+     .note-md {
+    color: #222;
+    font-size:large;
+}
+      .login-box {
+            width:100%;
+              background:#49a794;
+              padding: 4px 3px 6px 0px;
+              margin-top: 15px;
+      }
+ }
+@media screen and (min-width: 321px) and (max-width: 360px) {
+     .note-md {
+    color: #222;
+    font-size:large;
+}
+         .login-box {
+            width:100%;
+                  background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 15px;
+         }
+  }
+  @media screen and (min-width: 361px) and (max-width: 375px) {
+       .note-md {
+    color: #222;
+    font-size:large;
+}
+       .login-box {
+            width:100%;
+                  background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 20px;
+        }
+  }
+   @media screen and (min-width: 376px) and (max-width: 412px) {
+        .note-md {
+    color: #222;
+    font-size:large;
+}
+        .login-box {
+            width:100%;
+                   background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 40px;
+        }
+    }
+   @media screen and (min-width: 413px) and (max-width: 414px) {
+        .note-md {
+    color: #222;
+    font-size:large;
+}
+        .login-box {
+            width:100%;
+                  background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 35px;
+        }
+    }
+   @media screen and (min-width: 415px) and (max-width: 768px) {
+        .note-md {
+    color: #222;
+    font-size:large;
+}
+        .login-box {
+            width:100%;
+                  background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 75px;
+          }
+    }
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .note-md {
+    color: #222;
+    font-size:large;
+}
+         .login-box {
+            width:100%;
+                  background:#49a794;
+                  padding: 4px 3px 6px 0px;
+                  margin-top: 75px;
+        }
+    }
+   @media screen and (min-width: 1025px) and (max-width: 1320px) {
+       .note-md {
+    color: #222;
+    font-size:large;
+}
+         .login-box {
+                         margin-left:30%;
+                   width:40%;
+               background:#49a794;
+               padding: 4px 3px 6px 0px;
+               margin-top: 15px;
+              }
+      }
+
+.image{
+       @media screen and (max-width: 292px) {
+          width: 117%;
+        }
+    width: 90%;
+}
+
+.imagefunc{
+    width: 41%;
+}
+
+}

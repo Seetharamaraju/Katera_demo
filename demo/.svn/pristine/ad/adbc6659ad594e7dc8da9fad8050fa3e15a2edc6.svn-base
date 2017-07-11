@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar color="theme">
+   
+    <ion-title>Intermediate Page</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content text-center>
+  <div class="inter-box">
+  <ion-grid text-center style="width:60%;">
+    <ion-row>
+      <ion-col class="col1">
+      <div class="log-box">
+        <div class="item item-avatar" style="background-color: #399F8B">
+          <img src="assets/images/u.png" width="100%" height="100%" (click)="usermanage()">
+          <h2 style="text-align: center;font-size:13px;margin-left: 24px;"(click)="usermanage()">User Management</h2>
+        </div>
+
+        <div >
+          <img src="assets/images/usermgmt3.jpg" (click)="usermanage()">
+            
+        </div>
+      </div> 
+      </ion-col>
+      <ion-col > 
+      <div class="log1-box">
+        <div class="item item-avatar" style="background-color: #399F8B">
+            <img src="assets/images/d.png" width="100%" height="100%" (click)="deviceFunction()">
+            <h2 style="text-align: center;font-size:13px;margin-left: 24px;" (click)="deviceFunction()">Device Management</h2>
+        </div>
+
+        <div >
+          <img src="assets/images/devicemgmt2.png" (click)="deviceFunction()">
+            
+        </div>
+      </div> 
+      </ion-col>
+
+      <ion-col >   
+        <div class="log2-box" >
+        <div class="item item-avatar" style="background-color: #399F8B">
+          <img src="assets/images/d.png" width="100%" height="100%" (click)="dashboardFunction()">
+           <h2 style="text-align: center;font-size:13px;margin-left: 24px;"(click)="dashboardFunction()">Dashboard</h2>
+        </div>
+
+        <div >
+          <img  src="assets/images/dashboard3.png" (click)="dashboardFunction()">
+            
+        </div>
+      </div>  
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  </div>
+</ion-content>  
+ 

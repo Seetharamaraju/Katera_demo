@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon.png",
+        "source": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/sushma/demo/platforms/android/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon.png",
+        "source": "/home/sushma/demo/platforms/android/res/mipmap-xxhdpi/icon.png"
+    }
+]

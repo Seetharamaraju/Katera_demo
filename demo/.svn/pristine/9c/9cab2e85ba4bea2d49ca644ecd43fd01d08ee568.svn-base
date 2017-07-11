@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="theme">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Statistics</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content >
+  <ion-card>
+     <ion-card-content>
+      
+       <ion-row>
+
+        <ion-col>
+         <canvas #lineCanvas></canvas>
+        </ion-col>
+   <div class = "textstyle">
+   <ion-col>
+        <ion-row>
+          <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+          <ion-col><ion-item>Device Name : Light</ion-item></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><ion-item>Hours : 40 Hours</ion-item></ion-col>
+          <ion-col><ion-item>Consumed Power : 180 watts</ion-item></ion-col>
+        </ion-row>
+
+
+
+   </ion-col>
+ </div>
+ </ion-row>
+  
+     </ion-card-content>
+   </ion-card>
+
+</ion-content>

@@ -1,0 +1,20 @@
+page-roomstatistics {
+
+ // @media only screen and (min-width : 1201px) and ( max-width : 1850px) {
+    .barstyle{
+      width:850px;
+    }
+    .textstyle{
+      justify-content: right;
+      display: border-box;
+    }
+//  }
+  .item-md [item-left], .item-md [item-right], .item-md [item-start], .item-md [item-end] {
+    margin: 9px 4px 9px 0;
+}
+.card-content-md {
+    padding: 13px 16px 13px 16px;
+    font-size: 1.4rem;
+    line-height: 3.5;
+}
+}

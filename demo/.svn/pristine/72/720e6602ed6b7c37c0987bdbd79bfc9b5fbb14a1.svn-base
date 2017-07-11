@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@ionic-native/device",
+        "scope": "@ionic-native",
+        "escapedName": "@ionic-native%2fdevice",
+        "name": "@ionic-native/device",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/sushma/demo"
+    ]
+  ],
+  "_from": "@ionic-native/device@latest",
+  "_id": "@ionic-native/device@3.9.2",
+  "_inCache": true,
+  "_location": "/@ionic-native/device",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/device-3.9.2.tgz_1495034528699_0.913149589439854"
+  },
+  "_npmUser": {
+    "name": "ihadeed",
+    "email": "i.hadeed@zyra.ca"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@ionic-native/device",
+    "scope": "@ionic-native",
+    "escapedName": "@ionic-native%2fdevice",
+    "name": "@ionic-native/device",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/device/-/device-3.9.2.tgz",
+  "_shasum": "4db8a793c4d79f8e6c39676e65fb1bcb2c53930d",
+  "_shrinkwrap": null,
+  "_spec": "@ionic-native/device",
+  "_where": "/home/sushma/demo",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/driftyco/ionic-native/issues"
+  },
+  "dependencies": {},
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4db8a793c4d79f8e6c39676e65fb1bcb2c53930d",
+    "tarball": "https://registry.npmjs.org/@ionic-native/device/-/device-3.9.2.tgz"
+  },
+  "homepage": "https://github.com/driftyco/ionic-native#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "ihadeed",
+      "email": "i.hadeed@zyra.ca"
+    },
+    {
+      "name": "maxlynch",
+      "email": "max@ionic.io"
+    },
+    {
+      "name": "ionicjs",
+      "email": "hi@ionicframework.com"
+    }
+  ],
+  "module": "index.js",
+  "name": "@ionic-native/device",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@ionic-native/core": "^3.6.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/ionic-native.git"
+  },
+  "scripts": {},
+  "typings": "index.d.ts",
+  "version": "3.9.2"
+}

@@ -1,0 +1,166 @@
+<ion-header>
+  <ion-navbar color="theme">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Schedule</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+   <ion-card>
+    <ion-card-content class="card_size">
+
+     <ion-row>
+       <div class="col-66">
+       <ion-col>
+         <ion-list inset>
+           <ion-row>
+             <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+           </ion-row>
+           <ion-row>
+             <ion-col><ion-item>Device Name : Light</ion-item></ion-col>
+           </ion-row>
+
+           <ion-row>
+             <ion-col>Start Date & ON Time : </ion-col>
+              <ion-col>
+           <ion-item>
+             <ion-datetime text-center min={{todayDate}}  [max] = "lastDate"(ionChange)="dateChanged(event)" placeholder="DD-MM-YYYY HH:mm"displayFormat="DD-MM-YYYY HH:mm a"></ion-datetime>
+                <ion-icon [ngClass]="{'hide': true }" name="calendar" item-right></ion-icon>
+           </ion-item>
+         </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>End Date & OFF Time : </ion-col>
+           <ion-col>
+             <ion-item>
+               <ion-datetime style="position: relative" text-center [min]="startDate"  [max] = "lastDate2"(ionChange)="dateChanged2(event)" placeholder="DD-MM-YYYY HH:mm"displayFormat="DD-MM-YYYY HH:mm a"></ion-datetime>
+                  <ion-icon [ngClass]="{'hide': true }" name="calendar" item-right></ion-icon>
+              </ion-item>
+      </ion-col>
+     </ion-row>
+
+         </ion-list>
+       </ion-col>
+     </div>
+     </ion-row>
+
+     <ion-row>
+       <ion-col class="signup-col">
+         <ion-col><button ion-button (click)="showCalender()"><ion-icon md="ios-alarm"><b>SCHEDULE</b></ion-icon></button></ion-col>
+       </ion-col>
+     </ion-row>
+   </ion-card-content>
+   </ion-card>
+
+
+     <ion-card-header class="card_header">
+        List of Scheduled Devices :
+     </ion-card-header>
+
+
+      <ion-card>
+
+          <ion-card-content class="card_size">
+            <div class="row">
+              <ion-row>
+                  <div class="col-33">
+                      <img class="bulb_image" src="assets/images/bulb.png"/>
+                  </div>
+                <ion-col>
+                  <div class="col-66">
+                <ion-row>
+                  <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+                  <ion-col><ion-item>Device Name : FAN</ion-item></ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col><ion-item>Start Date & ON Time : 10-06-2017 06.00 AM</ion-item></ion-col>
+                    <ion-col><ion-item>END Date & OFF Time : 10-06-2017 06.00 PM</ion-item></ion-col>
+                </ion-row>
+              </div>
+              </ion-col>
+             </ion-row>
+            </div>
+     </ion-card-content>
+       <button ion-button class="buttonclass" item-right>DELETE</button>
+        </ion-card>
+
+        <ion-card>
+
+            <ion-card-content class="card_size">
+              <div class="row">
+                <ion-row>
+                    <div class="col-33">
+                        <img class="bulb_image" src="assets/images/bulb.png"/>
+                    </div>
+                  <ion-col>
+                    <div class="col-66">
+                  <ion-row>
+                    <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+                    <ion-col><ion-item>Device Name : FAN</ion-item></ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col><ion-item>Start Date & ON Time : 10-06-2017 06.00 AM</ion-item></ion-col>
+                      <ion-col><ion-item>END Date & OFF Time : 10-06-2017 06.00 PM</ion-item></ion-col>
+                  </ion-row>
+                </div>
+                </ion-col>
+               </ion-row>
+              </div>
+       </ion-card-content>
+         <button ion-button class="buttonclass" item-right>DELETE</button>
+          </ion-card>
+
+          <ion-card>
+
+              <ion-card-content class="card_size">
+                <div class="row">
+                  <ion-row>
+                      <div class="col-33">
+                          <img class="bulb_image" src="assets/images/bulb.png"/>
+                      </div>
+                    <ion-col>
+                      <div class="col-66">
+                    <ion-row>
+                      <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+                      <ion-col><ion-item>Device Name : FAN</ion-item></ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col><ion-item>Start Date & ON Time : 10-06-2017 06.00 AM</ion-item></ion-col>
+                        <ion-col><ion-item>END Date & OFF Time : 10-06-2017 06.00 PM</ion-item></ion-col>
+                    </ion-row>
+                  </div>
+                  </ion-col>
+                 </ion-row>
+                </div>
+         </ion-card-content>
+           <button ion-button class="buttonclass" item-right>DELETE</button>
+            </ion-card>
+
+
+
+
+
+
+   <!--
+  <ion-card>
+   <ion-card-content class="card_size">
+    <ion-row>
+
+          <ion-col>
+            <ion-list>
+              <ion-item>
+                <div class="line_class">
+                  <p>Start Date : </p>
+                </div>
+              </ion-item>
+            </ion-list>
+          </ion-col>
+     </ion-row>
+     <ion-row class="rowclass">
+       <ion-col><button ion-button class="buttonclass" (click)="showCalender()"><ion-icon md="ios-alarm"><b>SCHEDULE</b></ion-icon></button></ion-col>
+     </ion-row>
+   </ion-card-content>
+   </ion-card>
+
+ -->

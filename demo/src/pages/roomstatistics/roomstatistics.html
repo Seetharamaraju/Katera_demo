@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar color="theme">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> Room Statistics</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content >
+  <ion-card>
+     <ion-card-content>
+       <ion-grid>
+       <ion-row>
+             <ion-col col-3>Start Date & ON Time : </ion-col>
+              <ion-col col-3>
+           <ion-item>
+             <ion-datetime text-center min="2017"  (ionChange)="dateChanged(event)" placeholder="DD-MM-YYYY HH:mm"displayFormat="DD-MM-YYYY HH:mm a" item-left></ion-datetime>
+                <ion-icon [ngClass]="{'hide': true }" name="calendar"  (ionChange)="dateChanged(event)" item-right></ion-icon>
+           </ion-item>
+
+         </ion-col>
+        </ion-row>
+       </ion-grid>
+           <ion-grid>
+        <ion-row>
+            <ion-col col-3>End Date & OFF Time : </ion-col>
+           <ion-col col-3>
+             <ion-item>
+               <ion-datetime style="position: relative" text-center min="2017"  (ionChange)="dateChanged(event)" placeholder="DD-MM-YYYY HH:mm"displayFormat="DD-MM-YYYY HH:mm a"></ion-datetime>
+                  <ion-icon [ngClass]="{'hide': true }" name="calendar" (ionChange)="dateChanged(event)" item-right></ion-icon>
+              </ion-item>
+      </ion-col>
+     </ion-row>
+           </ion-grid>
+       <ion-row>
+
+        <ion-col>
+        <canvas #doughnutCanvas></canvas>
+        </ion-col>
+   <div class = "textstyle">
+   <ion-col>
+        <ion-row>
+          <ion-col><ion-item>Room No : 5</ion-item></ion-col>
+          <ion-col><ion-item>Devices : 6</ion-item></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><ion-item>Hours : 40 Hours</ion-item></ion-col>
+          <ion-col><ion-item>Consumed Power : 180 watts</ion-item></ion-col>
+        </ion-row>
+
+
+
+   </ion-col>
+ </div>
+ </ion-row>
+  
+     </ion-card-content>
+   </ion-card>
+
+</ion-content>

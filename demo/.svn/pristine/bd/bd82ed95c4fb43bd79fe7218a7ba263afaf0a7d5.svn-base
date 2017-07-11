@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sushma/demo/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/sushma/demo/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/res/xml/config.xml"
+    }
+]

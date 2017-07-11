@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/build/intermediates/res/merged/debug/drawable-land-xxhdpi/screen.png",
+        "source": "/home/sushma/HA-Ionic UI/homeauto/demo/platforms/android/res/drawable-land-xxhdpi/screen.png"
+    },
+    {
+        "merged": "/home/sushma/demo/platforms/android/build/intermediates/res/merged/debug/drawable-land-xxhdpi/screen.png",
+        "source": "/home/sushma/demo/platforms/android/res/drawable-land-xxhdpi/screen.png"
+    }
+]
